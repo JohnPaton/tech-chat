@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/python,django,react,osx,pycharm+all,visualstudiocode,jupyternotebooks
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,django,react,osx,pycharm+all,visualstudiocode,jupyternotebooks
+# Created by https://www.toptal.com/developers/gitignore/api/python,django,react,osx,pycharm+all,visualstudiocode,jupyternotebooks,obsidian
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,django,react,osx,pycharm+all,visualstudiocode,jupyternotebooks,obsidian
 
 ### Django ###
 *.log
@@ -181,6 +181,10 @@ cython_debug/
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
+
+### Obsidian ###
+# config dir
+.obsidian/
 
 ### OSX ###
 # General
@@ -425,4 +429,4 @@ sketch
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/python,django,react,osx,pycharm+all,visualstudiocode,jupyternotebooks
+# End of https://www.toptal.com/developers/gitignore/api/python,django,react,osx,pycharm+all,visualstudiocode,jupyternotebooks,obsidian
