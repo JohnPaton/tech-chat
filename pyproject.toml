@@ -10,11 +10,16 @@ python = "^3.10"
 fastapi = "^0.109.2"
 langchain = "^0.1.6"
 langserve = {extras = ["server"], version = "^0.0.41"}
+pandas = "^2.2.0"
+pyarrow = "^15.0.0"
+chromadb = "^0.4.22"
+sentence-transformers = "^2.3.1"
 
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.0"
 jupyterlab = "^4.1.0"
+jupytext = "^1.16.1"
 
 [build-system]
 requires = ["poetry-core"]
